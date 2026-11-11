@@ -1,0 +1,28 @@
+{
+  "name": "EchoVoid",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": { "$path": "src/shared" },
+      "Remotes": {
+        "$className": "Folder",
+        "RequestManualPing": { "$className": "RemoteEvent" },
+        "RequestMoveMode": { "$className": "RemoteEvent" },
+        "RequestThrow": { "$className": "RemoteEvent" },
+        "RequestDrop": { "$className": "RemoteEvent" },
+        "EchoSoundEvent": { "$className": "RemoteEvent" },
+        "DevRegenerateMap": { "$className": "RemoteEvent" }
+      }
+    },
+    "ServerScriptService": {
+      "Echo": { "$path": "src/server" },
+      "Tests": { "$path": "src/tests" }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Echo": { "$path": "src/client" },
+        "RbxCharacterSounds": { "$path": "src/overrides/RbxCharacterSounds.client.luau" }
+      }
+    }
+  }
+}

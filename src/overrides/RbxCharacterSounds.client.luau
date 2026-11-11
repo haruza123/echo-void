@@ -1,0 +1,3 @@
+-- Sengaja kosong: menggantikan script suara karakter bawaan Roblox.
+-- Suara langkah di ECHO//VOID diputar oleh AudioController dari sound event server,
+-- supaya yang terdengar selalu sama dengan yang memicu echo.
